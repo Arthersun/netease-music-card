@@ -35,8 +35,8 @@ const {
     }).catch(error => console.error(`无法获取用户播放记录 \n${error}`));
 
     console.log(USER_ID);
+    console.log(AUTHOR);
     const content = record.body;
-    console.log(record);
     const songId = content.weekData[0].song.id + '';
     const songName = content.weekData[0].song.name;
     const songAuthorArray = content.weekData[0].song.ar;
