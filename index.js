@@ -201,7 +201,7 @@ const {
             <div class="card">
                 <div class="user">
                     <img class="avatar" src="data:image/jpg;base64,${await getBase64(avatarUrl)}"/>
-                    <a class="username">RugerMc</a>
+                    <a class="username">Arthersun</a>
                     <a class="button"></a>
                     <div class="clear"></div>
                 </div>
